@@ -32,7 +32,6 @@ async def get_weather(message: types.Message):
                             f'Давление:{pressure}\n'
                             f'Скорость ветра: {wind_speed}')
     except Exception as ex:
-        await message.reply(ex)
         await message.reply('Проверьте название города!')
 
 

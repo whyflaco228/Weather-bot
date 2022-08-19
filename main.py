@@ -20,7 +20,7 @@ def get_weather(city, open_weather_token):
               f'Скорость ветра: {wind_speed}')
     except Exception as ex:
         print(ex)
-        print('Проверьте развание города!')
+        print('Проверьте название города!')
 
 
 def main():
